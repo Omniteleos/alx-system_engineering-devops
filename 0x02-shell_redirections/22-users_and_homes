@@ -1,2 +1,2 @@
 #!/bin/bash
-rev /etc/passwd | cut -d ":" -f 3,2 | rev
+rev /etc/passwd | cut -d ":" -f 3,2 | rev | sort
